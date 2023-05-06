@@ -1,29 +1,28 @@
 /******************************************************************************
 
 Вариант №24
-Лабораторная работа 3.
+Практическая задание 3.
 Писарькова Богдана 22ИС-21
 
 *******************************************************************************/
 using System;
+
 class Program
 {
 static void Main(string[] args)
 {
-double x = 1.0; // здесь указываем значение переменной x
-double a = 2.0; // здесь указываем значение переменной a
-double sum = 0.0; // переменная для хранения суммы ряда
-double term = 0.0; // переменная для хранения текущего члена ряда
-int n = 1; // счетчик номера члена ряда
+double alpha = 1.0; // здесь указываем значение переменной alpha
+double beta0 = 0.0; // здесь указываем начальное значение переменной beta
+double betax = 1.0; // здесь указываем конечное значение переменной beta
+double deltaBeta = 0.1; // здесь указываем шаг изменения переменной beta
 
-do
+for (double beta = beta0; beta <= betax; beta += deltaBeta)
 {
-term = (n * x + Math.Pow(a, 2 * n - 1)) / Math.Pow(Math.Sin(a + x), n);
-sum += term;
-n++;
-} while (Math.Abs(term) > 1e-6); // продолжаем вычисления, пока текущий член ряда не станет достаточно маленьким
+double w = (Math.Cos(Math.Pow(alpha, 2)) + Math.Sin(alpha + beta)) / Math.Sqrt(Math.Pow(beta, 3) + Math.Tan(beta));
+Console.WriteLine("При beta = " + beta + " значение W равно " + w);
+}
 
-Console.WriteLine("Сумма ряда: " + sum);
 Console.ReadLine();
 }
 }
+
