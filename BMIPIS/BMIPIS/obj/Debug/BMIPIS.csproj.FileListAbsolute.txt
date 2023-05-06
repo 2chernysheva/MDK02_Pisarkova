@@ -1,0 +1,10 @@
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\bin\Debug\BMIPIS.exe.config
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\bin\Debug\BMIPIS.exe
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\bin\Debug\BMIPIS.pdb
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\obj\Debug\BMIPIS.csproj.AssemblyReference.cache
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\obj\Debug\BMIPIS.Form1.resources
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\obj\Debug\BMIPIS.Properties.Resources.resources
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\obj\Debug\BMIPIS.csproj.GenerateResource.cache
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\obj\Debug\BMIPIS.csproj.CoreCompileInputs.cache
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\obj\Debug\BMIPIS.exe
+C:\Users\Валерия\source\repos\BMIPIS\BMIPIS\obj\Debug\BMIPIS.pdb
