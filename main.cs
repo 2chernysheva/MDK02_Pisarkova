@@ -1,28 +1,20 @@
 /******************************************************************************
 
-Вариант №24
-Практическая задание 3.
+Практическое задание 1
 Писарькова Богдана 22ИС-21
 
 *******************************************************************************/
 using System;
+using static System.Math;
 
 class Program
 {
-static void Main(string[] args)
-{
-double alpha = 1.0; // здесь указываем значение переменной alpha
-double beta0 = 0.0; // здесь указываем начальное значение переменной beta
-double betax = 1.0; // здесь указываем конечное значение переменной beta
-double deltaBeta = 0.1; // здесь указываем шаг изменения переменной beta
-
-for (double beta = beta0; beta <= betax; beta += deltaBeta)
-{
-double w = (Math.Cos(Math.Pow(alpha, 2)) + Math.Sin(alpha + beta)) / Math.Sqrt(Math.Pow(beta, 3) + Math.Tan(beta));
-Console.WriteLine("При beta = " + beta + " значение W равно " + w);
+    static void Main(string[] args)
+    {
+        var result = (
+            ((6 - 4.5/1) / 0.03 / Sqrt(3.5/1 - 2.65) * 4 + 2/5) - 
+            Pow(0.3 - 3/20d, 1.5) / (1.88 + 2.12) * 1/80) * (1/5d) * 
+            Pow(1d/3d, 1d/3d);
+        Console.WriteLine(result);
+    }   
 }
-
-Console.ReadLine();
-}
-}
-
